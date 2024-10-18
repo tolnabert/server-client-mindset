@@ -9,3 +9,15 @@ GET https://rickandmortyapi.com/api/character/2
 GET http://localhost:4444/pets
 
 ### 
+
+https://rickandmortyapi.com/api/character/avatar/2.jpeg
+
+###
+
+POST http://localhost:4444/pets
+Content-Type: application/json
+
+{
+  "name": "pokki",
+  "kind": "spider"
+}
