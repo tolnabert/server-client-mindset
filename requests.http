@@ -1,0 +1,11 @@
+GET http://developer.mozilla.org
+
+###
+
+GET https://rickandmortyapi.com/api/character/2
+
+###
+
+GET http://localhost:4444/pets
+
+### 

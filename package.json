@@ -1,0 +1,23 @@
+{
+  "name": "server-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "serve": "ts-node server/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/type-provider-json-schema-to-ts": "^4.0.0",
+    "fastify": "^5.0.0",
+    "fastify-type-provider-zod": "^4.0.2",
+    "json-server": "^1.0.0-beta.3",
+    "pino-pretty": "^11.2.2",
+    "short-uuid": "^5.2.0",
+    "ts-node": "^10.9.2",
+    "zod": "^3.23.8"
+  }
+}
